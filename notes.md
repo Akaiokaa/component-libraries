@@ -1,4 +1,4 @@
-2 commands to install: 
+3 commands to install: 
 npm install @mui/material @emotion/react @emotion/styled
 npm install @fontsource/roboto
 npm install @mui/icons-material
