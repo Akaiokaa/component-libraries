@@ -6,8 +6,7 @@ import {
   Button, 
   FormControlLabel, 
   Checkbox, 
-  Link, 
-  Grid 
+  Link
 } from '@mui/material';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Avatar from '@mui/material/Avatar';
@@ -79,6 +78,7 @@ export default function SignIn() {
           
           {/* Footer Links */}
           <Box sx={{ 
+            mt: 2,
             display: "flex",
             flexDirection:"column"
           }}>
