@@ -78,18 +78,17 @@ export default function SignIn() {
           </Button>
           
           {/* Footer Links */}
-          <Grid container>
-            <Grid item xs>
-              <Link href="#" variant="body2" underline="hover"  sx={{ mr: 2, display: 'block', mb: 2}}>
-                Forgot password?
-              </Link>
-            </Grid>
-            <Grid item>
-              <Link href="#" variant="body2" underline="hover" sx={{mr: 2}}>
-                Don't have an account? Sign Up
-              </Link>
-            </Grid>
-          </Grid>
+          <Box sx={{ 
+            display: "flex",
+            flexDirection:"column"
+          }}>
+            <Link href="#" variant="body2" underline="hover"  sx={{ mr: 2, display: 'block', mb: 2}}>
+              Forgot password?
+            </Link>
+            <Link href="#" variant="body2" underline="hover" sx={{mr: 2}}>
+              Don't have an account? Sign Up
+            </Link>
+          </Box>
         </Box>
       </Box>
     </Container>
